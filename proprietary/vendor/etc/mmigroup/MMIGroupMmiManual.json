@@ -1,0 +1,139 @@
+{
+  "itemConfig": [
+    {
+      "showName": "VersionInfo"
+    },
+    {
+      "showName": "Vibrator",
+      "action": "com.mmigroup.action.RANDOMVIBRATER",
+      "paramconfig": {
+        "randomShortInterval": [
+          6,
+          200,
+          200
+        ],
+        "randomLongInterval": [
+          6,
+          200,
+          1000
+        ]
+      }
+    },
+    {
+      "showName": "Battery"
+    },
+    {
+      "showName": "SMARTPA"
+    },
+    {
+      "showName": "LeftTopSpeaker"
+    },
+    {
+      "showName": "LeftBottomSpeaker"
+    },
+    {
+      "showName": "RightTopSpeaker"
+    },
+    {
+      "showName": "RightBottomSpeaker"
+    },
+    {
+      "showName": "HeadSet",
+      "paramconfig": {
+        "keyCode": [
+          "HEADSETHOOK"
+        ]
+      }
+    },
+    {
+      "showName": "LCD",
+      "paramconfig": {
+        "auto_switch": false,
+        "lcd_pic": [
+          "Color_R=2000",
+          "Color_G=2000",
+          "Color_B=2000",
+          "Color_W=2000",
+          "Color_BL=2000",
+          "Color_GR127=2000"
+        ]
+      }
+    },
+    {
+      "showName": "TouchPanel"
+    },
+    {
+      "showName": "TpOpenShort"
+    },
+    {
+      "showName": "MainMicToHeadPhone"
+    },
+    {
+      "showName": "SubMicToHeadPhone"
+    },
+    {
+      "showName": "HsMicToHeadPhone"
+    },
+    {
+      "showName": "Wlan"
+    },
+    {
+      "showName": "Bluetooth"
+    },
+    {
+      "showName": "fingerprint"
+    },
+    {
+      "showName": "KeyPad"
+    },
+    {
+      "showName": "Sar"
+    },
+    {
+      "showName": "SdCard"
+    },
+    {
+      "showName": "Accelerometer",
+      "paramconfig": {
+        "support_calibrate": true,
+        "support_axialresult": true,
+        "support_angle45": false,
+        "support_angleneg45": false,
+        "is_auto_calibrate": false
+      }
+    },
+    {
+      "showName": "Hall"
+    },
+    {
+      "showName": "MainCamera"
+    },
+    {
+      "showName": "WideCamera"
+    },
+    {
+      "showName": "FrontCamera"
+    },
+    {
+      "showName": "FrontCamera2"
+    },
+    {
+      "showName": "Flashlight"
+    },
+    {
+      "showName": "KeyboardTest"
+    },
+    {
+      "showName": "PogoPinBattery"
+    },
+    {
+      "showName": "TvOut"
+    },
+    {
+      "showName": "OTG2"
+    },
+    {
+      "showName": "OTG3"
+    }
+  ]
+}

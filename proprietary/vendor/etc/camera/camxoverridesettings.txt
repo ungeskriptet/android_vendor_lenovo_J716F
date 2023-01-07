@@ -1,0 +1,4 @@
+outputFormat=OutputFormatYUV420NV12
+overrideLogLevels=0x01
+logInfoMask=0x00
+logWarningMask=0x00

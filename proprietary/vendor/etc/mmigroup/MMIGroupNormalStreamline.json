@@ -1,0 +1,162 @@
+{
+  "itemConfig": [
+    {
+      "showName": "VersionInfo"
+    },
+    {
+      "showName": "LCD",
+      "paramconfig": {
+        "auto_switch": false,
+        "lcd_pic": [
+          "Color_R=2000",
+          "Color_G=2000",
+          "Color_B=2000",
+          "Color_W=2000",
+          "Color_BL=2000",
+          "Color_GR127=2000"
+        ]
+      }
+    },
+    {
+      "showName": "TouchPanel"
+    },
+    {
+      "showName": "TpOpenShort"
+    },
+    {
+      "showName": "Vibrator",
+      "action": "com.mmigroup.action.RANDOMVIBRATER",
+      "paramconfig": {
+        "randomShortInterval": [
+          6,
+          200,
+          200
+        ],
+        "randomLongInterval": [
+          6,
+          200,
+          1000
+        ]
+      }
+    },
+    {
+      "showName": "Battery"
+    },
+    {
+      "showName": "KeyPad"
+    },
+    {
+      "showName": "SMARTPA"
+    },
+    {
+      "showName": "LeftTopSpeaker"
+    },
+    {
+      "showName": "LeftBottomSpeaker"
+    },
+    {
+      "showName": "RightTopSpeaker"
+    },
+    {
+      "showName": "RightBottomSpeaker"
+    },
+    {
+      "showName": "HeadSet",
+      "paramconfig": {
+        "keyCode": [
+          "HEADSETHOOK"
+        ]
+      }
+    },
+    {
+      "showName": "MainMicToHeadPhone"
+    },
+    {
+      "showName": "SubMicToHeadPhone"
+    },
+    {
+      "showName": "HsMicToHeadPhone"
+    },
+    {
+      "showName": "fingerprint"
+    },
+    {
+      "showName": "Accelerometer",
+      "paramconfig": {
+        "support_calibrate": false,
+        "support_axialresult": true,
+        "support_angle45": true,
+        "support_angleneg45": true,
+        "is_auto_calibrate": false
+      }
+    },
+    {
+      "showName": "Optical"
+    },
+    {
+      "showName": "Proximity"
+    },
+    {
+      "showName": "Gyroscope",
+      "paramconfig": {
+        "support_calibrate": false,
+        "support_test": true,
+        "is_auto_calibrate": false
+      }
+    },
+    {
+      "showName": "Magnetic",
+      "paramconfig": {
+        "support_calibrate": false,
+        "support_draw": false,
+        "support_test": true,
+        "self_calibrate": false
+      }
+    },
+    {
+      "showName": "Sar"
+    },
+    {
+      "showName": "Hall"
+    },
+    {
+      "showName": "Wlan"
+    },
+    {
+      "showName": "Bluetooth"
+    },
+    {
+      "showName": "OTG2"
+    },
+    {
+      "showName": "OTG3"
+    },
+    {
+      "showName": "SdCard"
+    },
+    {
+      "showName": "MainCamera"
+    },
+    {
+      "showName": "WideCamera"
+    },
+    {
+      "showName": "FrontCamera"
+    },
+    {
+      "showName": "FrontCamera2"
+    },
+    {
+      "showName": "Flashlight"
+    },
+    {
+      "showName": "PogoPinBattery"
+    },
+    {
+      "showName": "KeyboardTest"
+    },
+    {
+      "showName": "TvOut"
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "itemConfig": [
+    {
+      "showName": "VersionInfo"
+    },
+    {
+      "showName": "SdCard"
+    },
+    {
+      "showName": "KeyPad"
+    },
+    {
+      "showName": "fingerprint",
+      "paramconfig": {
+        "support_enrolTest": false,
+        "support_identifyTest": false
+      }
+    },
+    {
+      "showName": "Vibrator",
+      "paramconfig": {
+        "is_auto_vibrate": false
+      }
+    },
+    {
+      "showName": "LCD",
+      "paramconfig": {
+        "auto_switch": false,
+        "lcd_pic": [
+          "Color_R=2000",
+          "Color_G=2000",
+          "Color_B=2000",
+          "Color_W=2000",
+          "Color_BL=2000",
+          "Color_GR127=2000"
+        ]
+      }
+    },
+    {
+      "showName": "Backlight"
+    },
+    {
+      "showName": "Flashlight"
+    },
+    {
+      "showName": "TouchPanel"
+    },
+    {
+      "showName": "MainCamera"
+    },
+    {
+      "showName": "WideCamera"
+    },
+    {
+      "showName": "FrontCamera"
+    },
+    {
+      "showName": "FrontCamera2"
+    },
+    {
+      "showName": "Battery"
+    },
+    {
+      "showName": "OTG2"
+    },
+    {
+      "showName": "OTG3"
+    },
+    {
+      "showName": "Wlan"
+    },
+    {
+      "showName": "Bluetooth"
+    },
+    {
+      "showName": "Accelerometer",
+      "paramconfig": {
+        "support_calibrate": true,
+        "support_axialresult": true,
+        "support_angle45": false,
+        "support_angleneg45": false,
+        "is_auto_calibrate": false,
+        "support_plus_or_minus_45_degrees_either_pass_through": false,
+        "autoTest": {
+          "support_calibrate": false
+        }
+      }
+    },
+    {
+      "showName": "Optical"
+    },
+    {
+      "showName": "Proximity"
+    },
+    {
+      "showName": "Gyroscope",
+      "paramconfig": {
+        "support_calibrate": false,
+        "support_test": true,
+        "is_auto_calibrate": false
+      }
+    },
+    {
+      "showName": "Magnetic",
+      "paramconfig": {
+        "support_calibrate": false,
+        "support_draw": false,
+        "support_test": true,
+        "self_calibrate": false
+      }
+    },
+    {
+      "showName": "Sar",
+      "paramconfig": {
+        "check_exist_only": true
+      }
+    },
+    {
+      "showName": "Hall"
+    },
+    {
+      "showName": "LeftTopSpeaker"
+    },
+    {
+      "showName": "LeftBottomSpeaker"
+    },
+    {
+      "showName": "RightTopSpeaker"
+    },
+    {
+      "showName": "RightBottomSpeaker"
+    },
+    {
+      "showName": "HeadSet",
+      "paramconfig": {
+        "keyCode": [
+          "HEADSETHOOK"
+        ]
+      }
+    },
+    {
+      "showName": "MainMicToHeadPhone"
+    },
+    {
+      "showName": "SubMicToHeadPhone"
+    },
+    {
+      "showName": "HsMicToHeadPhone"
+    }
+  ]
+}

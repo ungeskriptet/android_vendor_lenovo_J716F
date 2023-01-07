@@ -1166,12 +1166,12 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/J716F/proprietary/vendor/firmware/spk4_fast_switch2.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/spk4_fast_switch2.txt \
     vendor/lenovo/J716F/proprietary/vendor/firmware/spk4_fast_switch3.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/spk4_fast_switch3.txt \
     vendor/lenovo/J716F/proprietary/vendor/firmware/wigig/wigig.ini:$(TARGET_COPY_OUT_VENDOR)/firmware/wigig/wigig.ini \
-    vendor/lenovo/J716F/proprietary/vendor/firmware/wlan/qca_cld/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/qca_cld/WCNSS_qcom_cfg.ini \
+    # FIXME vendor/lenovo/J716F/proprietary/vendor/firmware/wlan/qca_cld/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/qca_cld/WCNSS_qcom_cfg.ini \
     vendor/lenovo/J716F/proprietary/vendor/firmware/wlan/qca_cld/qca6390/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/qca_cld/qca6390/WCNSS_qcom_cfg.ini \
-    vendor/lenovo/J716F/proprietary/vendor/firmware/wlan/qca_cld/qca6390/wlan_mac.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/qca_cld/qca6390/wlan_mac.bin \
+    # FIXME vendor/lenovo/J716F/proprietary/vendor/firmware/wlan/qca_cld/qca6390/wlan_mac.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/qca_cld/qca6390/wlan_mac.bin \
     vendor/lenovo/J716F/proprietary/vendor/firmware/wlan/qca_cld/qca6490/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/qca_cld/qca6490/WCNSS_qcom_cfg.ini \
-    vendor/lenovo/J716F/proprietary/vendor/firmware/wlan/qca_cld/qca6490/wlan_mac.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/qca_cld/qca6490/wlan_mac.bin \
-    vendor/lenovo/J716F/proprietary/vendor/firmware/wlanmdsp.otaupdate:$(TARGET_COPY_OUT_VENDOR)/firmware/wlanmdsp.otaupdate \
+    # FIXME vendor/lenovo/J716F/proprietary/vendor/firmware/wlan/qca_cld/qca6490/wlan_mac.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/qca_cld/qca6490/wlan_mac.bin \
+    # FIXME vendor/lenovo/J716F/proprietary/vendor/firmware/wlanmdsp.otaupdate:$(TARGET_COPY_OUT_VENDOR)/firmware/wlanmdsp.otaupdate \
     vendor/lenovo/J716F/proprietary/vendor/lib/btaudio_offload_if.so:$(TARGET_COPY_OUT_VENDOR)/lib/btaudio_offload_if.so \
     vendor/lenovo/J716F/proprietary/vendor/lib/camera.device@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@1.0-impl.so \
     vendor/lenovo/J716F/proprietary/vendor/lib/camera.device@3.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.2-impl.so \

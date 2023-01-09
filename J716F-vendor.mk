@@ -1524,7 +1524,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/J716F/proprietary/vendor/lib/libface3d_dev.so:$(TARGET_COPY_OUT_VENDOR)/lib/libface3d_dev.so \
     vendor/lenovo/J716F/proprietary/vendor/lib/libfastcrc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfastcrc.so \
     vendor/lenovo/J716F/proprietary/vendor/lib/libfastcvdsp_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfastcvdsp_stub.so \
-    vendor/lenovo/J716F/proprietary/vendor/lib/libfastcvopt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfastcvopt.so \
     vendor/lenovo/J716F/proprietary/vendor/lib/libgarden.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgarden.so \
     vendor/lenovo/J716F/proprietary/vendor/lib/libgcs-calwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgcs-calwrapper.so \
     vendor/lenovo/J716F/proprietary/vendor/lib/libgcs-ipc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgcs-ipc.so \
@@ -2331,7 +2330,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/J716F/proprietary/vendor/lib64/libexthwplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexthwplugin.so \
     vendor/lenovo/J716F/proprietary/vendor/lib64/libface3d_dev.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libface3d_dev.so \
     vendor/lenovo/J716F/proprietary/vendor/lib64/libfastcvdsp_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfastcvdsp_stub.so \
-    vendor/lenovo/J716F/proprietary/vendor/lib64/libfastcvopt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfastcvopt.so \
     vendor/lenovo/J716F/proprietary/vendor/lib64/libgameoptfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgameoptfeature.so \
     vendor/lenovo/J716F/proprietary/vendor/lib64/libgarden.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgarden.so \
     vendor/lenovo/J716F/proprietary/vendor/lib64/libgarden_haltests_e2e.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgarden_haltests_e2e.so \
@@ -2796,6 +2794,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/J716F/proprietary/vendor/radio/qcril_database/upgrade/9_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/9_version_update_ecc_table.sql
 
 PRODUCT_PACKAGES += \
+    libfastcvopt \
     libthermalclient \
     CACertService \
     CneApp \
